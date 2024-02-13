@@ -1,0 +1,125 @@
+body {
+    border-width: 1px;
+    border-style:solid;
+    background-image: url("Bckgrnd\ Img.jpg");
+    color: greenyellow;
+    font-weight: medium;
+}
+
+#p {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+#p img {
+    height: 20px;
+    width: 20px;
+}
+
+#Div1 {
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+#Div1 label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Div1 input {
+    position: absolute;
+    left: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#Div2 {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+#Div2 label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#Div2 select {
+    cursor: pointer;
+}
+
+#Div3 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#Div3 label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#Div3 input {
+    cursor: pointer;
+}
+
+table {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 140px;
+    border: 2px solid red;
+    width: 600px;
+    overflow: hidden;
+    background-color: rgb(27, 5, 5);
+}
+
+thead tr:first-child td:first-child {
+    border-bottom: 1px solid brown;
+}
+
+blockquote {
+    font-style: italic;
+    width: 250px;
+}
+
+tfoot tr:first-child {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+tfoot tr:last-child {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tfoot tr:first-child td {
+    border-top: 1px solid brown;
+}
+
+#btnd {
+    position: absolute;
+    left: 350px;
+    top: 560px;
+}
+
+#btnd input {
+    margin-left: 60px;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    border-color: red;
+    background-color: aqua;
+}
+
+#btnd input:first-child {
+    border-width: 3px;
+}
+
+#btnd input:hover {
+    background-color: blue;
+    color: red;
+}
+
